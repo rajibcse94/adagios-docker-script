@@ -37,17 +37,21 @@ Generate a docker-compose.yaml
 ### Start the Nagios container
 
 ### 🔑 Default Credentials
-Username: ````bash nagiosadmin ```
-Password: ```bash nagios ```
+```bash
+Username: nagiosadmin
+Password: nagios
+```
 
 ### 🛑 Stop Nagios
 To stop the container:
 ```bash
 cd /root/nagios-docker-03
 ```
+
 ```bash
 docker-compose down
 ```
+
 ### 🔄 Restart Nagios
 ```bash
 cd /root/nagios-docker-03
